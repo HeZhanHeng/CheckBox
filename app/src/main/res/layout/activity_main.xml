@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.hezhanheng.checkb.MainActivity">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:text="编辑"
+    android:id="@+id/button1"
+    android:layout_width="70dp"
+    android:layout_height="wrap_content" />
+    <Button
+        android:text="全选"
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="全不选"
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="反选"
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="操作"
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+<ListView
+    android:id="@+id/listView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</ListView>
+</LinearLayout>
+
+
